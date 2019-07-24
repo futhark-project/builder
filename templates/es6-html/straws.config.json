@@ -1,0 +1,16 @@
+{
+  "CSS": {
+    "src": "sass/**/*.{sass,scss}",
+    "dest": "css"
+  },
+  "HTML": {
+    "entries": "**/*.html",
+    "src": "**/*.html",
+    "dest": ""
+  },
+  "JS": {
+    "entries": "javascript/main.js",
+    "src": "javascript/**/*.js",
+    "dest": "javascript"
+  }
+}
