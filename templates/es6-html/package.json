@@ -1,12 +1,12 @@
 {
-  "name": "@futhark/build-es6-html",
+  "name": "futhark-builder-es6-html",
   "version": "0.0.2",
   "description": "Futhark template to use for vanilla javascript and plein html",
   "main": "index.html",
   "scripts": {
     "start": "gulp",
     "build": "gulp --production",
-    "build-env": "NODE_ENV=production gulp"
+    "archive": "gulp archive"
   },
   "repository": {
     "type": "git",
