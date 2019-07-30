@@ -1,11 +1,12 @@
 {
   "name": "@futhark/build-es6-html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Futhark template to use for vanilla javascript and plein html",
   "main": "index.html",
   "scripts": {
     "start": "gulp",
-    "build": "gulp --production"
+    "build": "gulp --production",
+    "build-env": "NODE_ENV=production gulp"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
-    "@futhark/straws": "0.0.1",
+    "@futhark/straws": "0.0.4",
     "babel-loader": "^8.0.6",
     "gulp": "^4.0.2",
     "webpack": "^4.38.0"

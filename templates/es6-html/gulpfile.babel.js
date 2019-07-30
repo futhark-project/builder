@@ -8,7 +8,7 @@ import {
   html,
   images,
   js,
-  modeArg,
+  mode,
   serve,
 } from '@futhark/straws'
 
@@ -21,7 +21,7 @@ const {
   HTML,
   PATH,
 } = config
-const production = modeArg
+const production = mode
 
 
 /* Build */
