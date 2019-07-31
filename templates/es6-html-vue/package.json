@@ -1,0 +1,43 @@
+{
+  "name": "futhark-builder-es6-html",
+  "version": "0.0.2",
+  "description": "Futhark template to use for vanilla javascript and plein html",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp --production",
+    "archive": "gulp archive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futhark-project/builder.git"
+  },
+  "keywords": [
+    "futhark",
+    "gulp",
+    "js",
+    "vanilla",
+    "javascript",
+    "es6",
+    "html",
+    "frontend"
+  ],
+  "author": "iStuffs: Samuel DIDIER-LAURENT <istuffs@gmail.com> (https://istuffs.be)",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/futhark-project/builder/issues"
+  },
+  "homepage": "https://github.com/futhark-project/builder#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@futhark/straws": "0.0.6",
+    "babel-loader": "^8.0.6",
+    "gulp": "^4.0.2",
+    "webpack": "^4.38.0"
+  },
+  "dependencies": {
+    "core-js": "^3.1.4"
+  }
+}
