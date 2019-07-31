@@ -1,0 +1,20 @@
+{
+  "ASSETS": {
+    "src": "assets/**/*.{json,eot,otf,svg,ttf,woff,woff2}",
+    "dest": "assets/"
+  },
+  "CSS": {
+    "src": "assets/sass/**/*.{sass,scss}",
+    "dest": "assets/css"
+  },
+  "ERROR": "Error: <%= error.message %>",
+  "IMAGES": {
+    "src": "assets/images/**/*.{gif,jpg,jpeg,png,svg}",
+    "dest": "assets/images"
+  },
+  "JS": {
+    "entries": "assets/scripts/main.js",
+    "src": "assets/scripts/**/*.js",
+    "dest": "assets/scripts"
+  }
+}

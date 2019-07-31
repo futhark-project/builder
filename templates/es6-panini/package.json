@@ -1,7 +1,7 @@
 {
-  "name": "futhark-builder-es6-html",
-  "version": "0.0.2",
-  "description": "Futhark template to use for vanilla javascript and plein html",
+  "name": "futhark-builder-es6-panini",
+  "version": "0.0.1",
+  "description": "Futhark template to use for vanilla javascript and panini html templating",
   "main": "index.html",
   "scripts": {
     "start": "gulp",
