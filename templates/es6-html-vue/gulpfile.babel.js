@@ -7,7 +7,7 @@ import {
   css,
   html,
   images,
-  js,
+  jsVue,
   mode,
   serve,
 } from '@futhark/straws'
@@ -25,7 +25,7 @@ const production = mode
 
 
 /* Build */
-const build = series(clean, parallel(assets, css, js, images, html));
+const build = series(clean, parallel(assets, css, jsVue, images, html));
 
 /* Watching */
 const watcher = series(build, serve.init, () => {
@@ -42,7 +42,7 @@ const watcher = series(build, serve.init, () => {
   watch(PATH.src + IMAGES.src, series(images))
     .on("all", series(serve.reload))
   // javascript
-  watch(PATH.src + JS.src, series(js))
+  watch(PATH.src + JS.src, series(jsVue))
     .on("all", series(serve.reload))
 })
 

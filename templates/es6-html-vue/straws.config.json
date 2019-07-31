@@ -1,2 +1,7 @@
 {
+  "JS": {
+    "entries": "javascript/app.js",
+    "src": "javascript/**/*.js",
+    "dest": "javascript"
+  }
 }
