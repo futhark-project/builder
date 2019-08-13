@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page-lang }}">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page-title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="{{ page-description }}">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <v-page-wrapper inline-template>
+      <div>
+        {{> body }}
+      </div>
+    </v-page-wrapper>
+  </div>
+  <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>
