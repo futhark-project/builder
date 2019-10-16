@@ -29,16 +29,16 @@
   },
   "homepage": "https://github.com/futhark-project/builder#readme",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
-    "@futhark/straws": "0.0.6",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "@futhark/straws": "0.0.7",
     "babel-loader": "^8.0.6",
     "gulp": "^4.0.2",
-    "webpack": "^4.39.2"
+    "webpack": "^4.41.2"
   },
   "dependencies": {
-    "core-js": "^3.2.1",
+    "core-js": "^3.3.2",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10",
     "vuex": "^3.1.1"

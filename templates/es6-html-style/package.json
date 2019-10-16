@@ -29,20 +29,20 @@
   },
   "homepage": "https://github.com/futhark-project/builder#readme",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
-    "@futhark/straws": "0.0.6",
-    "autoprefixer": "^9.6.1",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "@futhark/straws": "0.0.7",
+    "autoprefixer": "^9.6.5",
     "babel-loader": "^8.0.6",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
-    "webpack": "^4.39.2"
+    "webpack": "^4.41.2"
   },
   "dependencies": {
     "@futhark/style-core": "^0.0.1",
     "bourbon": "^6.0.0",
-    "core-js": "^3.2.1"
+    "core-js": "^3.3.2"
   }
 }
