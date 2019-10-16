@@ -1,0 +1,11 @@
+@import 'bourbon';
+@import 'style-core';
+
+body {
+  background-color: #eee;
+}
+
+h1 {
+  // @include clearfix;
+  color: colors('primary')
+}
